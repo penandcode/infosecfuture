@@ -1,6 +1,5 @@
 import Register from '../Register'
 import Login from '../Login'
-import React from 'react'
 import Header from '../Header'
 
 const RegisterPage = () => {

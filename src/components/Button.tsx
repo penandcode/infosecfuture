@@ -1,6 +1,5 @@
-import React from 'react'
 
-const Button = ({ name }) => {
+const Button = (props: { name: string }) => {
     return (
         <button style={{
             backgroundColor: "#133D7A",
@@ -10,7 +9,7 @@ const Button = ({ name }) => {
             paddingBlock: "8px",
             borderRadius: "4px",
             paddingInline: "25px"
-        }}> {name}</button >
+        }}> {props.name}</button >
     )
 }
 
