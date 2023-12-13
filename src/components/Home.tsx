@@ -5,6 +5,8 @@ import Footer from './Footer';
 import Card1 from "../assets/Card 1.png"
 import Card2 from "../assets/Card 2.png"
 import Card3 from "../assets/Card 3.png"
+import Details from './Details';
+import Hero from './Hero';
 
 function Home() {
 
@@ -12,6 +14,7 @@ function Home() {
     return (
         <>
             <Header />
+            <Hero />
             <div className="mt-5">
                 <div style={{ fontSize: "40px", fontWeight: 600, textAlign: "center" }}>Explore your path</div>
                 <div style={{ fontSize: "24px", fontWeight: 400, textAlign: "center" }}>Find your path</div>
@@ -45,6 +48,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Details />
             <Footer />
         </>
     )

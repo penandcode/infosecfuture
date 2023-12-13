@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
 .header {
   height: 74px;
 }
@@ -29,7 +31,7 @@
   color: #333333;
 }
 
-.login{
+.login {
   width: 80vw;
 }
 
@@ -50,4 +52,49 @@
 .footer {
   background-color: rgba(0, 105, 138, 1);
   color: rgba(255, 255, 255, 1);
+}
+
+.follow {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.details {
+  background-color: rgba(0, 21, 52, 1);
+  color: rgba(255, 255, 255, 1);
+  min-height: 60vh;
+}
+
+.details-inder {
+  font-family: 'Inder', sans-serif;
+  color: rgba(177, 177, 177, 1);
+  font-size: 1rem;
+}
+
+.details-bold {
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width:540px) {
+  input::placeholder {
+    font-size: 10px;
+  }
+
+  .follow {
+    font-size: 0.6rem;
+  }
+
+  .details-bold {
+    font-size: 0.6rem;
+  }
+
+  .details-inder {
+    font-size: 0.6rem;
+  }
+}
+
+.backgroundHero {
+  background: url("./assets/Hero.png");
 }
